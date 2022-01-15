@@ -35,5 +35,11 @@ namespace BackendToGiggin.Controllers
             })
             .ToArray();
         }
+        [HttpGet]
+        public String GetTest(int? Id = 0)
+        {
+            return "Teeeeeest";
+
+        }
     }
 }
